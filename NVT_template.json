@@ -1,0 +1,1232 @@
+{
+	"dateExported": "2024-05-23T15:54:04",
+	"datasetType": "DEWorkspace",
+	"catalogPath": "F:\\Schema\\NVT_schema_example\\NVT_schema_example.gdb",
+	"name": "NVT_schema_example.gdb",
+	"childrenExpanded": false,
+	"workspaceType": "esriLocalDatabaseWorkspace",
+	"workspaceFactoryProgID": "esriDataSourcesGDB.FileGDBWorkspaceFactory",
+	"connectionString": "",
+	"majorVersion": 3,
+	"minorVersion": 0,
+	"bugfixVersion": 0,
+	"realm": "",
+	"maxAttributeRuleID": 0,
+	"domains": [],
+	"datasets": [
+		{
+			"catalogPath": "\\NVT",
+			"name": "NVT",
+			"childrenExpanded": false,
+			"datasetType": "esriDTFeatureClass",
+			"dsId": 3,
+			"versioned": false,
+			"canVersion": false,
+			"configurationKeyword": "",
+			"requiredGeodatabaseClientVersion": "10.0",
+			"changeTracked": false,
+			"replicaTracked": false,
+			"hasOID": true,
+			"hasOID64": false,
+			"oidFieldName": "OBJECTID",
+			"fields": {
+				"fieldArray": [
+					{
+						"name": "OBJECTID",
+						"type": "esriFieldTypeOID",
+						"isNullable": false,
+						"length": 4,
+						"precision": 0,
+						"scale": 0,
+						"required": true,
+						"editable": false
+					},
+					{
+						"name": "Shape",
+						"type": "esriFieldTypeGeometry",
+						"isNullable": true,
+						"length": 0,
+						"precision": 0,
+						"scale": 0,
+						"required": true,
+						"geometryDef": {
+							"avgNumPoints": 0,
+							"geometryType": "esriGeometryPoint",
+							"hasM": false,
+							"hasZ": false,
+							"spatialReference": {
+								"wkid": 4326,
+								"latestWkid": 4326
+							},
+							"gridSize0": 0.024688348315275256
+						}
+					},
+					{
+						"name": "RECHAR",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Status",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Status_Dat",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Doc",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 10,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Vetted",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Resolved",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "PermitNo",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "PermitDate",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "YRBLT",
+						"type": "esriFieldTypeInteger",
+						"isNullable": true,
+						"length": 4,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "VioType1",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "VioType2",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "VioType3",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Submitted",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Comments",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Standardiz",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Violation_",
+						"type": "esriFieldTypeInteger",
+						"isNullable": true,
+						"length": 4,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Violation1",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Violatio_1",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Violatio_2",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Street1",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Street2",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "City",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Mitigated",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Elevation_",
+						"type": "esriFieldTypeInteger",
+						"isNullable": true,
+						"length": 4,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "LOMC_Casen",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "LocCor",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "LOCATION",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "PHYUNIT",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "NAME",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "NBRBLDG",
+						"type": "esriFieldTypeInteger",
+						"isNullable": true,
+						"length": 4,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "KEYNAME",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "CONDO_COMP",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "SPECUSE",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "BUSNAME",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "AW_501FU",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Own_phone",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Own_email",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "MH",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "RL_List",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "Attach",
+						"type": "esriFieldTypeInteger",
+						"isNullable": true,
+						"length": 4,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "PreFIRMdat",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "created_us",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "created_da",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "last_edite",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "last_edi_1",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "GlobalID",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 38,
+						"precision": 0,
+						"scale": 0
+					},
+					{
+						"name": "PropertyCa",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 254,
+						"precision": 0,
+						"scale": 0
+					}
+				]
+			},
+			"indexes": {
+				"indexArray": [
+					{
+						"name": "FDO_OBJECTID",
+						"isUnique": true,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "OBJECTID",
+									"type": "esriFieldTypeOID",
+									"isNullable": false,
+									"length": 4,
+									"precision": 0,
+									"scale": 0,
+									"required": true,
+									"editable": false,
+									"aliasName": "OBJECTID"
+								}
+							]
+						}
+					},
+					{
+						"name": "FDO_Shape",
+						"isUnique": false,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "Shape",
+									"type": "esriFieldTypeGeometry",
+									"isNullable": true,
+									"length": 0,
+									"precision": 0,
+									"scale": 0,
+									"required": true,
+									"geometryDef": {
+										"avgNumPoints": 0,
+										"geometryType": "esriGeometryPoint",
+										"hasM": false,
+										"hasZ": false,
+										"spatialReference": {
+											"wkid": 4326,
+											"latestWkid": 4326
+										},
+										"gridSize0": 0.024688348315275256
+									},
+									"aliasName": "Shape"
+								}
+							]
+						}
+					}
+				]
+			},
+			"clsId": "{52353152-891A-11D0-BEC6-00805F7C4268}",
+			"extClsId": "",
+			"relationshipClassNames": {
+				"names": []
+			},
+			"aliasName": "",
+			"modelName": "",
+			"hasGlobalID": false,
+			"globalIdFieldName": "",
+			"rasterFieldName": "",
+			"extensionProperties": {
+				"type": "PropertySet",
+				"propertySetItems": []
+			},
+			"controllerMemberships": [],
+			"editorTrackingEnabled": false,
+			"creatorFieldName": "",
+			"createdAtFieldName": "",
+			"lastEditorFieldName": "",
+			"editedAtFieldName": "",
+			"isTimeInUTC": true,
+			"catalogID": "{B2AB69B9-9009-4164-B63B-B6D3ECA7994C}",
+			"fieldFilteringEnabled": false,
+			"attributeRules": [],
+			"featureType": "esriFTSimple",
+			"shapeType": "esriGeometryPoint",
+			"shapeFieldName": "Shape",
+			"hasM": false,
+			"hasZ": false,
+			"hasSpatialIndex": true,
+			"areaFieldName": "",
+			"lengthFieldName": "",
+			"extent": {
+				"xmin": -81.774926000334631,
+				"ymin": 24.559935286884013,
+				"xmax": -80.257927000030975,
+				"ymax": 25.334183999791833,
+				"spatialReference": {
+					"wkid": 4326,
+					"latestWkid": 4326
+				}
+			},
+			"spatialReference": {
+				"wkid": 4326,
+				"latestWkid": 4326
+			},
+			"splitModel": "esriSMUpdateInsert"
+		},
+		{
+			"catalogPath": "\\Flood_Certificates",
+			"name": "Flood_Certificates",
+			"childrenExpanded": false,
+			"datasetType": "esriDTFeatureClass",
+			"dsId": 4,
+			"versioned": false,
+			"canVersion": false,
+			"configurationKeyword": "",
+			"requiredGeodatabaseClientVersion": "13.2",
+			"changeTracked": false,
+			"replicaTracked": false,
+			"hasOID": true,
+			"hasOID64": false,
+			"oidFieldName": "OBJECTID",
+			"fields": {
+				"fieldArray": [
+					{
+						"name": "OBJECTID",
+						"type": "esriFieldTypeOID",
+						"isNullable": false,
+						"length": 4,
+						"precision": 0,
+						"scale": 0,
+						"required": true,
+						"editable": false,
+						"aliasName": "OBJECTID"
+					},
+					{
+						"name": "Shape",
+						"type": "esriFieldTypeGeometry",
+						"isNullable": true,
+						"length": 0,
+						"precision": 0,
+						"scale": 0,
+						"required": true,
+						"geometryDef": {
+							"avgNumPoints": 0,
+							"geometryType": "esriGeometryPoint",
+							"hasM": false,
+							"hasZ": false,
+							"spatialReference": {
+								"wkid": 2881,
+								"latestWkid": 2881
+							},
+							"gridSize0": 0
+						},
+						"aliasName": "Shape"
+					},
+					{
+						"name": "RE_Num",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 15,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Property Num"
+					},
+					{
+						"name": "Permit_Num",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Permit_Num"
+					},
+					{
+						"name": "Top_Bottom_Flr",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Top_Bottom_Flr"
+					},
+					{
+						"name": "Top_Next_Flr",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Top_Next_Flr"
+					},
+					{
+						"name": "Bottom_Low_Horiz",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Bottom_Low_Horiz"
+					},
+					{
+						"name": "Attached_Garage",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Attached_Garage"
+					},
+					{
+						"name": "Low_Elev_Machine",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Low_Elev_Machine"
+					},
+					{
+						"name": "LAG",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "LAG"
+					},
+					{
+						"name": "HAG",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "HAG"
+					},
+					{
+						"name": "LAG_Low_Elev",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "LAG_Low_Elev"
+					},
+					{
+						"name": "Date",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 1,
+						"scale": 0,
+						"aliasName": "Date"
+					},
+					{
+						"name": "Key_Name",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 100,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Key_Name"
+					},
+					{
+						"name": "Comments",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 50,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Comments"
+					},
+					{
+						"name": "created_user",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 255,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "created_user"
+					},
+					{
+						"name": "created_date",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 1,
+						"scale": 0,
+						"aliasName": "created_date"
+					},
+					{
+						"name": "last_edited_user",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 255,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "last_edited_user"
+					},
+					{
+						"name": "last_edited_date",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 1,
+						"scale": 0,
+						"aliasName": "last_edited_date"
+					},
+					{
+						"name": "Count_Attach",
+						"type": "esriFieldTypeSmallInteger",
+						"isNullable": true,
+						"length": 2,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Count_Attach"
+					},
+					{
+						"name": "Permit_Iss",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 1,
+						"scale": 0,
+						"aliasName": "Permit_Iss"
+					},
+					{
+						"name": "Type_Doc",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 55,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Type_Doc"
+					},
+					{
+						"name": "BuildType",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 35,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "BuildType"
+					},
+					{
+						"name": "Single_Multi",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 45,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Single_Multi"
+					},
+					{
+						"name": "Pre_Post",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Pre_Post"
+					},
+					{
+						"name": "New_SI_SD",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "New_SI_SD"
+					},
+					{
+						"name": "Bld_Diag",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Bld_Diag"
+					},
+					{
+						"name": "FloodZ",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 255,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "FloodZ"
+					},
+					{
+						"name": "BFE",
+						"type": "esriFieldTypeDouble",
+						"isNullable": true,
+						"length": 8,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "BFE"
+					},
+					{
+						"name": "CAZ",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 20,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "CAZ",
+						"defaultValue": "No"
+					},
+					{
+						"name": "Case_No",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 25,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Case_No"
+					},
+					{
+						"name": "RL_Area",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 30,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "RL_Area",
+						"defaultValue": "No"
+					},
+					{
+						"name": "FP_Cert_Needed",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 30,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "FP_Cert_Needed",
+						"defaultValue": "No"
+					},
+					{
+						"name": "V_Cert_Req",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 30,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "V_Cert_Req",
+						"defaultValue": "No"
+					},
+					{
+						"name": "Active",
+						"type": "esriFieldTypeString",
+						"isNullable": true,
+						"length": 15,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "Active",
+						"defaultValue": "Y"
+					},
+					{
+						"name": "CO",
+						"type": "esriFieldTypeDate",
+						"isNullable": true,
+						"length": 8,
+						"precision": 1,
+						"scale": 0,
+						"aliasName": "CO Issued date"
+					}
+				]
+			},
+			"indexes": {
+				"indexArray": [
+					{
+						"name": "FDO_OBJECTID",
+						"isUnique": true,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "OBJECTID",
+									"type": "esriFieldTypeOID",
+									"isNullable": false,
+									"length": 4,
+									"precision": 0,
+									"scale": 0,
+									"required": true,
+									"editable": false,
+									"aliasName": "OBJECTID"
+								}
+							]
+						}
+					},
+					{
+						"name": "FDO_Shape",
+						"isUnique": false,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "Shape",
+									"type": "esriFieldTypeGeometry",
+									"isNullable": true,
+									"length": 0,
+									"precision": 0,
+									"scale": 0,
+									"required": true,
+									"geometryDef": {
+										"avgNumPoints": 0,
+										"geometryType": "esriGeometryPoint",
+										"hasM": false,
+										"hasZ": false,
+										"spatialReference": {
+											"wkid": 2881,
+											"latestWkid": 2881
+										},
+										"gridSize0": 0
+									},
+									"aliasName": "Shape"
+								}
+							]
+						}
+					}
+				]
+			},
+			"clsId": "{52353152-891A-11D0-BEC6-00805F7C4268}",
+			"extClsId": "",
+			"relationshipClassNames": {
+				"names": []
+			},
+			"aliasName": "",
+			"modelName": "",
+			"hasGlobalID": false,
+			"globalIdFieldName": "",
+			"rasterFieldName": "",
+			"extensionProperties": {
+				"type": "PropertySet",
+				"propertySetItems": []
+			},
+			"controllerMemberships": [],
+			"editorTrackingEnabled": false,
+			"creatorFieldName": "",
+			"createdAtFieldName": "",
+			"lastEditorFieldName": "",
+			"editedAtFieldName": "",
+			"isTimeInUTC": true,
+			"catalogID": "{2B62FED3-7A61-4500-B9A4-2A4EBF5F302D}",
+			"fieldFilteringEnabled": false,
+			"attributeRules": [],
+			"featureType": "esriFTSimple",
+			"shapeType": "esriGeometryPoint",
+			"shapeFieldName": "Shape",
+			"hasM": false,
+			"hasZ": false,
+			"hasSpatialIndex": true,
+			"areaFieldName": "",
+			"lengthFieldName": "",
+			"extent": {
+				"xmin": "NaN",
+				"ymin": "NaN",
+				"xmax": "NaN",
+				"ymax": "NaN",
+				"spatialReference": {
+					"wkid": 2881,
+					"latestWkid": 2881
+				}
+			},
+			"spatialReference": {
+				"wkid": 2881,
+				"latestWkid": 2881
+			},
+			"splitModel": "esriSMUpdateInsert"
+		},
+		{
+			"catalogPath": "\\Flood_Certificates__ATTACH",
+			"name": "Flood_Certificates__ATTACH",
+			"childrenExpanded": false,
+			"datasetType": "esriDTTable",
+			"dsId": 5,
+			"versioned": false,
+			"canVersion": false,
+			"configurationKeyword": "",
+			"requiredGeodatabaseClientVersion": "10.0",
+			"changeTracked": false,
+			"replicaTracked": false,
+			"hasOID": true,
+			"hasOID64": false,
+			"oidFieldName": "ATTACHMENTID",
+			"fields": {
+				"fieldArray": [
+					{
+						"name": "ATTACHMENTID",
+						"type": "esriFieldTypeOID",
+						"isNullable": false,
+						"length": 4,
+						"precision": 0,
+						"scale": 0,
+						"required": true,
+						"editable": false,
+						"aliasName": "ATTACHMENTID"
+					},
+					{
+						"name": "REL_OBJECTID",
+						"type": "esriFieldTypeInteger",
+						"isNullable": false,
+						"length": 4,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "REL_OBJECTID"
+					},
+					{
+						"name": "CONTENT_TYPE",
+						"type": "esriFieldTypeString",
+						"isNullable": false,
+						"length": 150,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "CONTENT_TYPE"
+					},
+					{
+						"name": "ATT_NAME",
+						"type": "esriFieldTypeString",
+						"isNullable": false,
+						"length": 250,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "ATT_NAME"
+					},
+					{
+						"name": "DATA_SIZE",
+						"type": "esriFieldTypeInteger",
+						"isNullable": false,
+						"length": 4,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "DATA_SIZE"
+					},
+					{
+						"name": "DATA",
+						"type": "esriFieldTypeBlob",
+						"isNullable": true,
+						"length": 0,
+						"precision": 0,
+						"scale": 0,
+						"aliasName": "DATA"
+					}
+				]
+			},
+			"indexes": {
+				"indexArray": [
+					{
+						"name": "FDO_ATTACHMENTID",
+						"isUnique": true,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "ATTACHMENTID",
+									"type": "esriFieldTypeOID",
+									"isNullable": false,
+									"length": 4,
+									"precision": 0,
+									"scale": 0,
+									"required": true,
+									"editable": false,
+									"aliasName": "ATTACHMENTID"
+								}
+							]
+						}
+					},
+					{
+						"name": "G5REL_OBJECTID",
+						"isUnique": false,
+						"isAscending": true,
+						"fields": {
+							"fieldArray": [
+								{
+									"name": "REL_OBJECTID",
+									"type": "esriFieldTypeInteger",
+									"isNullable": false,
+									"length": 4,
+									"precision": 0,
+									"scale": 0,
+									"aliasName": "REL_OBJECTID"
+								}
+							]
+						}
+					}
+				]
+			},
+			"clsId": "{7A566981-C114-11D2-8A28-006097AFF44E}",
+			"extClsId": "",
+			"relationshipClassNames": {
+				"names": []
+			},
+			"aliasName": "",
+			"modelName": "",
+			"hasGlobalID": false,
+			"globalIdFieldName": "",
+			"rasterFieldName": "",
+			"extensionProperties": {
+				"type": "PropertySet",
+				"propertySetItems": []
+			},
+			"controllerMemberships": [],
+			"editorTrackingEnabled": false,
+			"creatorFieldName": "",
+			"createdAtFieldName": "",
+			"lastEditorFieldName": "",
+			"editedAtFieldName": "",
+			"isTimeInUTC": true,
+			"catalogID": "{4A8E693A-4D03-48BE-82C2-B0D953E1DDA9}",
+			"fieldFilteringEnabled": false,
+			"attributeRules": []
+		},
+		{
+			"catalogPath": "\\Flood_Certificates__ATTACHREL",
+			"name": "Flood_Certificates__ATTACHREL",
+			"childrenExpanded": false,
+			"datasetType": "esriDTRelationshipClass",
+			"dsId": 6,
+			"versioned": false,
+			"canVersion": false,
+			"configurationKeyword": "",
+			"requiredGeodatabaseClientVersion": "10.0",
+			"changeTracked": false,
+			"replicaTracked": false,
+			"hasOID": false,
+			"hasOID64": false,
+			"oidFieldName": "",
+			"fields": {
+				"fieldArray": []
+			},
+			"indexes": {
+				"indexArray": []
+			},
+			"clsId": "",
+			"extClsId": "",
+			"relationshipClassNames": {
+				"names": []
+			},
+			"aliasName": "",
+			"modelName": "",
+			"hasGlobalID": false,
+			"globalIdFieldName": "",
+			"rasterFieldName": "",
+			"extensionProperties": {
+				"type": "PropertySet",
+				"propertySetItems": []
+			},
+			"controllerMemberships": [],
+			"editorTrackingEnabled": false,
+			"creatorFieldName": "",
+			"createdAtFieldName": "",
+			"lastEditorFieldName": "",
+			"editedAtFieldName": "",
+			"isTimeInUTC": true,
+			"catalogID": "{5C166F72-A2D7-4706-9057-374CBBDBAC39}",
+			"fieldFilteringEnabled": false,
+			"attributeRules": [],
+			"cardinality": "esriRelCardinalityOneToMany",
+			"notification": "esriRelNotificationNone",
+			"isAttributed": false,
+			"isComposite": true,
+			"originClassNames": [
+				{
+					"name": "Flood_Certificates"
+				}
+			],
+			"destinationClassNames": [
+				{
+					"name": "Flood_Certificates__ATTACH"
+				}
+			],
+			"keyType": "esriRelKeyTypeSingle",
+			"classKey": "esriRelClassKeyUndefined",
+			"forwardPathLabel": "attachment",
+			"backwardPathLabel": "object",
+			"isReflexive": false,
+			"originClassKeys": [
+				{
+					"datasetType": "RelationshipClassKey",
+					"objectKeyName": "OBJECTID",
+					"classKeyName": "",
+					"keyRole": "esriRelKeyRoleOriginPrimary"
+				},
+				{
+					"datasetType": "RelationshipClassKey",
+					"objectKeyName": "REL_OBJECTID",
+					"classKeyName": "",
+					"keyRole": "esriRelKeyRoleOriginForeign"
+				}
+			],
+			"relationshipRules": [],
+			"isAttachmentRelationship": true
+		}
+	]
+}
